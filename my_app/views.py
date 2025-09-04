@@ -7,4 +7,4 @@ def hello(request , first_name):
     return HttpResponse(f'hello {first_name}')
 def add (request , num1 , num2):
     
-    return HttpResponse(num1 + num2)
+    return HttpResponse(f" the sum of two of the numbers is :{num1 + num2}")
