@@ -24,7 +24,7 @@ urlpatterns = [
     path ("hello/<str:first_name>/", hello) , 
     path("add/<int:num1>/<int:num2>/", add),
     path('home/',home),
-    path('index/',index , name= "home"),
+    path('index/',index , name= "index"),
     path('about/',about , name= "about"), 
     path('',include("job_board.urls"))
     
