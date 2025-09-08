@@ -1,0 +1,6 @@
+{% extends "job_board/_base.html" %} {% load humanize %}
+<html>
+  {% block content %} {% for post in active_jobs %}
+  <li>{{post.title}} | {{post.salary}}</li>
+  {% endfor %} {% endblock content %}
+</html>

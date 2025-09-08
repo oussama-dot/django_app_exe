@@ -1,0 +1,10 @@
+{% extends "job_board/_base.html" %} {% load humanize %}
+<html>
+  {% block content %}
+  <li>{{job_posting.title}}</li>
+  <li>{{job_posting.description}}</li>
+  <hr />
+  <li>{{job_posting.salary}}</li>
+
+  {% endblock content %}
+</html>
