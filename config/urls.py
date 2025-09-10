@@ -26,6 +26,7 @@ urlpatterns = [
     path('home/',home),
     path('index/',index , name= "index"),
     path('about/',about , name= "about"), 
-    path('',include("job_board.urls"))
+    path('',include("job_board.urls")),
+    path('',include("links.urls"))
     
 ]
